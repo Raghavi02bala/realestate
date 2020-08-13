@@ -1,7 +1,15 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-
+<style>
+    body {
+        background-image: url("{% static 'img/showcase.jpg' %}");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+</style>
 <!-- Showcase -->
 <section id="showcase">
     <div class="container text-center">
@@ -125,7 +133,7 @@
                 </div>
             </div>
         </div>
-    </div>
+        </>
 </section>
 
 <!-- Listings -->

@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 django = "==2.1.1"
 autopep8 = "*"
+psycopg2 = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.6"
